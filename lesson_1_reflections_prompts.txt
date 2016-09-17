@@ -1,0 +1,38 @@
+P: Como a visualização de um diff entre duas versões de um arquivo ajuda você a ver o bug que foi introduzido?
+
+R: Através do comando diff é possivel visualizar as mudaças ocorridas entre duas verões de um arquivo. Possibilitando ver as diferenças entre os arquivos. E dessa forma facilitando a busca por bugs, já que não vai ser mais preciso verificar todo o arquivo. Mas só apenas as partes que foram alteradas.
+
+
+P: Como ter fácil acesso a todo o histórico de um arquivo pode torná-lo um programador mais eficiente no longo prazo?
+
+R: O histórico de um arquivo permite que o programador se arrisque mais. E programe sem medo de errar. Pois se ocorrer um erro é possivel consultar o histórico para verificar o que foi feito de errado. Ele não tem a necessidade de tentar lembrar o que foi feito antes.
+Além disso, com o histórico de arquivo o programador tem mais informações sobre seus arquivos e suas atualizações.
+
+
+P: Na sua opinião, quais são os prós e contras de escolher manualmente quando criar um commit, como ocorre no Git, v. o salvamento automático de versões, como no Google Docs?
+
+R: Com commits manuais o programador tem o controle da frequencia dos commits. A vantagem disso é que se o programador tiver uma boa experiencia ele fára os commmits no tempo necessário, criando assim um histório de commits organizados que poderá ajudar o desenvolvedor futuramente. Mas há várias desvantagem para os commits manuais. Como ocaso do programador pode esquecer de fazer os commits. Ou não fazer os commits depois de cada mudança lógica, criando assim um histórico de commits desorganizado.
+
+Os commits automáticos tem a vantagem de tirar a resposabilidade de fazer commits do programdor, podendo deixa-lo despreocupado com isso para poder priorizar outros assuntos. Mas a desvantagem dos commits automáticos é que como não há um controle sobre eles, não é possível gerenciar precisamente o histórico dos commits.
+
+
+P: Por que você acha que alguns sistemas de controle de versão, como o Git, permitem salvar vários arquivos em um commit, enquanto outros, como o Google Docs, tratam cada arquivo separadamente?
+
+R: O Git é um controle de versão focado em codificação e desenvolvimento de software. Como um trecho de um código pode influenciar outros arquivos é necessário salvar vários arquivos em um único commit. Já o Google Docs não é especifico para códigos, abrangendo vários outros tipos de arquivos para diferentes modalidades. Por ele ter essa abrangencia o Google Docs não tem essa caracteristica de salvar arquivos em grupo.
+
+P: Como usar os comandos git log e git diff para visualizar o histórico dos arquivos?
+
+R: O comando git log é muito util para conferir as mudanças que ocorreram em um arquivo, ou seja ele mostra o histórico dos commits. Algo muito util para verificar atualizações. Já o git diff faz uma comparação entre dois commits, mostrando as linha foram atualizadas, excluidas ou adicionadas.
+
+
+P: De que modo o controle de versão pode dar a você mais segurança para fazer alterações que podem danificar algo?
+
+R: Possibilitando voltar projetos para versões anteriores no caso de ocorrer algum problema impactante com a versão mais recente.
+
+
+P: Agora que você já configurou a sua área de trabalho, você quer usar o Git para quê?
+
+R: Para controlar as versões dos meus projetos.
+
+
+
