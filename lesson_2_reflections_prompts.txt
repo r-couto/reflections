@@ -1,0 +1,7 @@
+P: O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
+
+R: Ao criar um repositório é criado um arquivo oculto chamado .git que contém metadados para tranformar um diretório em um repositório. Tambem é mostrado uma mensagem indicando que o repositório está vazio. É necessário iniciar um repositório para fazer o controle de versionamento de arquivos.
+
+P: Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece?
+
+R: É no repositório que ficam armazenados os commits. Na area de preparação fica apenas os arquivos rastreados para os futuros commits.
