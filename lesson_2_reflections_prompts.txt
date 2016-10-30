@@ -5,3 +5,24 @@ R: Ao criar um repositório é criado um arquivo oculto chamado .git que contém
 P: Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece?
 
 R: É no repositório que ficam armazenados os commits. Na area de preparação fica apenas os arquivos rastreados para os futuros commits.
+
+P: Como você pode usar a área de preparação para garantir que tenha um commit por alteração lógica?
+
+R: Usando os comandos do git para verificar as diferenças entre os arquivos na área de preparação e os que estão no repositório.
+
+P: Quais são algumas das situações em que branches seriam úteis para manter seu histórico organizado? Como branches ajudariam?
+
+R: Branchs são uteis nos casos de tentar criar uma nova funcionalidade, sem saber ao certo se essa nova funcionalidade vai funcionar ou se vai agregar valor ao projeto.
+
+P: Como os diagramas ajudam a visualizar a estrutura de branches?
+
+R: Mostrando os commits em cada branches e os pais dos seus commits.
+
+P: Qual é o resultado da mesclagem de dois branches? Por que o representamos no diagrama dessa forma?
+
+R: Quando dois branchs são mesclados é feito a junção dos commits dos dois branchs restando apenas um branch. A forma de apresenta-los demostra essas junção.
+
+P: Quais são os prós e contras da mesclagem automática do Git v. sempre fazer mesclagens manualmente?
+
+R: A desvantagem da mesclagem é que quando houver um conflito em um arquivo será necessário o conhecimento do usuário para saber quais partes do código em conflito devem permanecer na versão final do arquivo. E isso da margem para falhas humanas, no caso do usuário não escolher bem as partes do código que devem permanacer na versão final.
+Mas a vantagem da mesclagem manual é que ela oferece mais controle ao usuario, podendo escolher as modificações que julgar melhor para o projeto.

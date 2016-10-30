@@ -22,7 +22,7 @@ R: O Git é um controle de versão focado em codificação e desenvolvimento de 
 
 P: Como usar os comandos git log e git diff para visualizar o histórico dos arquivos?
 
-R: O comando git log é muito util para conferir as mudanças que ocorreram em um arquivo, ou seja ele mostra o histórico dos commits. Algo muito util para verificar atualizações. Já o git diff faz uma comparação entre dois commits, mostrando as linha foram atualizadas, excluidas ou adicionadas.
+R: O comando git log é muito util para conferir as mudanças que ocorreram em um arquivo, ou seja ele mostra o histórico dos commits. Algo muito util para verificar atualizações. Já o git diff faz uma comparação entre dois commits, mostrando as linha que foram atualizadas, excluidas ou adicionadas.
 
 
 P: De que modo o controle de versão pode dar a você mais segurança para fazer alterações que podem danificar algo?
