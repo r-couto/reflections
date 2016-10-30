@@ -32,5 +32,5 @@ R: Possibilitando voltar projetos para versões anteriores no caso de ocorrer al
 
 P: Agora que você já configurou a sua área de trabalho, você quer usar o Git para quê?
 
-R: Para controlar as versões dos meus projetos.
+R: Para ter mais controle sobre os arquivos com os quais trabalho. E para otimizar a produção de projetos em equipe.
 
