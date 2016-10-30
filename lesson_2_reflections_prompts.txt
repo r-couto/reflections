@@ -1,10 +1,10 @@
 P: O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
 
-R: Ao criar um repositório é criado um arquivo oculto chamado .git que contém metadados para tranformar um diretório em um repositório. Tambem é mostrado uma mensagem indicando que o repositório está vazio. É necessário iniciar um repositório para fazer o controle de versionamento de arquivos.
+R: Ao criar um repositório é criado um arquivo oculto chamado .git que contém metadados para transformar um diretório em um repositório. Também é mostrado uma mensagem indicando que o repositório está vazio. É necessário iniciar um repositório para fazer o controle de versionamento de arquivos.
 
 P: Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece?
 
-R: É no repositório que ficam armazenados os commits. Na area de preparação fica apenas os arquivos rastreados para os futuros commits.
+R: É no repositório que ficam armazenados os commits. Na área de preparação fica apenas os arquivos rastreados para os futuros commits.
 
 P: Como você pode usar a área de preparação para garantir que tenha um commit por alteração lógica?
 
@@ -24,5 +24,5 @@ R: Quando dois branchs são mesclados é feito a junção dos commits dos dois b
 
 P: Quais são os prós e contras da mesclagem automática do Git v. sempre fazer mesclagens manualmente?
 
-R: A desvantagem da mesclagem é que quando houver um conflito em um arquivo será necessário o conhecimento do usuário para saber quais partes do código em conflito devem permanecer na versão final do arquivo. E isso da margem para falhas humanas, no caso do usuário não escolher bem as partes do código que devem permanacer na versão final.
-Mas a vantagem da mesclagem manual é que ela oferece mais controle ao usuario, podendo escolher as modificações que julgar melhor para o projeto.
+R: A desvantagem da mesclagem é que quando houver um conflito em um arquivo será necessário o conhecimento do usuário para saber quais partes do código em conflito devem permanecer na versão final do arquivo. E isso da margem para falhas humanas, no caso do usuário não escolher bem as partes do código que devem permanecer na versão final.
+Mas a vantagem da mesclagem manual é que ela oferece mais controle ao usuário, podendo escolher as modificações que julgar melhor para o projeto.
